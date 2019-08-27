@@ -22,7 +22,8 @@ module Amatch
     end
 
     def delete(key)
-      patterns.delete!(key)
+      patterns.delete(key)
+      patterns
     end
 
     private
