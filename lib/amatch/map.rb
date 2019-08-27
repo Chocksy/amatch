@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Amatch
   class Map
     attr_reader :patterns, :algorithm
